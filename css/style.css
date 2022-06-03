@@ -1,0 +1,70 @@
+:root {
+    --one: hsl(277, 65%, 81%);
+    --two: hsl(198, 12%, 65%);
+    --two-dark: hsl(198, 12%, 50%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--one);
+    border-bottom: 1rem solid #000;
+    padding: 1rem 2rem;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 2rem;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+a::before {
+    display: block;
+    content: "";
+    background-color: var(--two);
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1rem;
+}
+
+a:hover,
+a::before:hover {
+    background-color: var(--two-dark);
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--two);
+    padding: 1.8rem 2rem;
+    box-shadow: 0.5rem 0.5rem 0rem #000;
+    margin-right: 0;
+    color: #FFF;
+    font-size: 2rem;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--two-dark);
+}
+
+.logo {
+    width: 5rem;
+    border-radius: 50%;
+    border: 0.3rem solid #000;
+}
