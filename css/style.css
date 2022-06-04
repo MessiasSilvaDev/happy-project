@@ -1,18 +1,26 @@
 :root {
-    --one: hsl(277, 65%, 81%);
-    --two: hsl(198, 12%, 65%);
-    --two-dark: hsl(198, 12%, 50%);
+    --one: hsl(351, 40%, 20%);
+    --two: hsl(346, 27%, 15%);
+    --two-transparent: hsla(346, 27%, 15%, 50%);
+    --two-dark: hsl(349, 24%, 13%);
+    --black: hsl(240, 3%, 11%);
+    --white: hsl(0, 0%, 100%);
+    --white-dark: hsl(9, 7%, 62%);
+    --white-dark-transparent: hsla(9, 7%, 62%, 35%);
+    --water: hsl(245, 13%, 35%);
+    --bege: hsl(350, 12%, 47%);
 }
 
 html {
     font-size: 62.5%;
+    transition: 0.2s all linear;
 }
 
-header {
+.header-section {
     display: flex;
     justify-content: space-between;
     background-color: var(--one);
-    border-bottom: 1rem solid #000;
+    border-bottom: 1rem solid var(--black);
     padding: 1rem 2rem;
 }
 
@@ -23,7 +31,7 @@ nav {
 a {
     display: inline-flex;
     align-items: center;
-    color: #FFF;
+    color: var(--white);
     font-size: 2rem;
     font-family: "Fira Code", sans-serif;
     font-weight: 500;
@@ -50,21 +58,80 @@ a::before:hover {
     text-align: center;
     background-color: var(--two);
     padding: 1.8rem 2rem;
-    box-shadow: 0.5rem 0.5rem 0rem #000;
+    box-shadow: 0.5rem 0.5rem 0rem var(--black);
     margin-right: 0;
-    color: #FFF;
+    color: var(--white);
     font-size: 2rem;
     font-family: "Fira Code", sans-serif;
     font-weight: 500;
     cursor: pointer;
+    border: none;
+    transition: 0.2s all linear;
 }
 
 .button:hover {
     background-color: var(--two-dark);
+    transform: scale(0.9);
 }
 
 .logo {
     width: 5rem;
     border-radius: 50%;
-    border: 0.3rem solid #000;
+    border: 0.3rem solid var(--two);
+    transition: 0.2s all linear;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.main-section {
+    height: calc(80.7rem - 1rem);
+    background-image: url(../assets/images/wallpaper2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1rem solid var(--black);
+}
+
+.wrapper-title {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--white-dark-transparent);
+    padding: 4.2rem 4.7rem 4.4rem 4rem;
+    filter: drop-shadow(1rem 1rem 0 var(--black));
+    margin-top: 11.6rem;
+    margin-left: 9.1rem;
+}
+
+.title {
+    color: var(--one);
+
+    font-family: 'Press Start 2P', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4rem;
+    text-shadow: 0.4rem 0.4rem 0 var(--black);
+    margin-bottom: 2.8rem;
+}
+
+.subtitle {
+    color: var(--white);
+
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 0;
+}
+
+.wrapper-button {
+    margin-top: 3.8rem;
+    margin-left: 18.1rem;
+}
+
+.wrapper-button .button {
+    background-color: var(--two-transparent);
+}
+
+.wrapper-button .button:nth-child(1) {
+    margin-right: 11.2rem;
 }
