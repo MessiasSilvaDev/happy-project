@@ -4,4 +4,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1rem solid var(--black);
+    padding-top: 11.5rem;
+    padding-left: 9rem;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 63rem;
+}
+
+.banner .box {
+    margin-bottom: 4rem;
+}
+
+.banner .button {
+    background-color: var(--two-transparent);
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
 }
