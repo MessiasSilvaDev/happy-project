@@ -17,14 +17,6 @@ html {
     transition: 0.2s all linear;
 }
 
-.main-section {
-    height: 80.7rem;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../assets/images/wallpaper2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 1rem solid var(--black);
-}
-
 .wrapper-button {
     margin-top: 3.8rem;
     margin-left: 18.1rem;
