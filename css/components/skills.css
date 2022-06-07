@@ -1,0 +1,10 @@
+.skills {
+    height: 73rem;
+    background-color: var(--two);
+    padding-top: 5rem;
+    border-bottom: 1rem solid var(--one);
+}
+
+.skills .subtitle {
+    text-align: center;
+}
