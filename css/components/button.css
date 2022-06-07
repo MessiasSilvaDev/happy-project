@@ -1,0 +1,21 @@
+.button {
+    display: inline-block;
+    
+    background-color: var(--two);
+    padding: 1.8rem 2rem;
+    margin-right: 0;
+    border: none;
+    box-shadow: 0.5rem 0.5rem 0rem var(--black);
+    cursor: pointer;
+    transition: 0.2s all linear;
+
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: var(--two-dark);
+    transform: scale(0.9);
+}
