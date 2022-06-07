@@ -103,24 +103,10 @@ a::before:hover {
     margin-left: 9.1rem;
 }
 
-.title {
-    color: var(--one);
-
-    font-family: 'Press Start 2P', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 4rem;
-    line-height: 4rem;
-    text-shadow: 0.4rem 0.4rem 0 var(--black);
-    margin-bottom: 2.8rem;
-}
-
 .subtitle {
     color: var(--white);
-
     font-size: 3rem;
     line-height: 3rem;
-    margin-bottom: 0;
 }
 
 .wrapper-button {
