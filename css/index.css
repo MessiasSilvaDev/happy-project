@@ -4,6 +4,7 @@
     --two-transparent: hsla(346, 27%, 15%, 50%);
     --two-dark: hsl(349, 24%, 13%);
     --black: hsl(240, 3%, 11%);
+    --black-transparent: hsla(240, 3%, 11%, 35%);
     --white: hsl(0, 0%, 100%);
     --white-dark: hsl(9, 7%, 62%);
     --white-dark-transparent: hsla(9, 7%, 62%, 35%);
@@ -87,20 +88,10 @@ a::before:hover {
 
 .main-section {
     height: calc(80.7rem - 1rem);
-    background-image: url(../assets/images/wallpaper2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../assets/images/wallpaper2.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 1rem solid var(--black);
-}
-
-.wrapper-title {
-    display: inline-block;
-    text-align: center;
-    background-color: var(--white-dark-transparent);
-    padding: 4.2rem 4.7rem 4.4rem 4rem;
-    filter: drop-shadow(1rem 1rem 0 var(--black));
-    margin-top: 11.6rem;
-    margin-left: 9.1rem;
 }
 
 .wrapper-button {
