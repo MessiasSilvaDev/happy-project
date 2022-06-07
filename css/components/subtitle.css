@@ -1,0 +1,7 @@
+.subtitle {
+    color: var(--white);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-shadow: 0.4rem 0.4rem 0 var(--black);
+}
