@@ -1,0 +1,39 @@
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.wrapper1 .skill {
+    margin-right: 5rem;
+}
+
+.skill img {
+    height: 9rem;
+    width: 9rem;
+}
+
+.skill .subtitle {
+    margin-bottom: 1.6rem;
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.7rem;
+}
+
+.progress {
+    border: 0.5rem solid var(--black);
+    width: 36rem;
+    height: 4rem;
+}
+
+::-webkit-progress-value {
+    background-color: var(--one);
+}
+
+::-webkit-progress-bar {
+    background-color: var(--white-dark);
+}
