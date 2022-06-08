@@ -1,15 +1,15 @@
-.skills {
-    height: 73rem;
+.section {
     background-color: var(--two);
     padding-top: 5rem;
+    padding-bottom: 10rem;
     border-bottom: 1rem solid var(--one);
 }
 
-.skills .title {
+.section .title {
     margin-bottom: 6rem;
 }
 
-.skills .wrapper-principal {
+.section .wrapper-principal {
     display: flex;
     justify-content: center;
 }
