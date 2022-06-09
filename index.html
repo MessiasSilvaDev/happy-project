@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="./css/components/action.css">
     <link rel="stylesheet" href="./css/components/button.css">
     <link rel="stylesheet" href="./css/components/banner.css">
-    <link rel="stylesheet" href="./css/components/title.css">
+    <link rel="stylesheet" href="./css/components/main-title.css">
     <link rel="stylesheet" href="./css/components/subtitle.css">
     <link rel="stylesheet" href="./css/components/box.css">
     <link rel="stylesheet" href="./css/components/section.css">
-    <link rel="stylesheet" href="./css/components/skill.css">
+    <link rel="stylesheet" href="./css/components/skill-tec.css">
+    <link rel="stylesheet" href="./css/components/progress-bar.css">
 
 
 </head>
@@ -40,7 +41,7 @@
     <main class="banner">
         <div class="wrapper">
             <div class="box">
-                <h1 class="title">Chihuahua</h1>
+                <h1 class="main-title">Chihuahua</h1>
                 <h2 class="subtitle" lang="en">FrontEnd Developer</h2>
             </div>
             <div class="navigation">
@@ -51,78 +52,20 @@
     </main>
 
     <section class="section">
-        <h2 class="title -second" lang="en">Skills</h2>
-        <div class="wrapper-principal">
-            <div class="wrapper1">
-                <div class="skill">
-                    <img src="./assets/images/ico_html5.svg" alt="Logo do HTML5">
-                    <div class="type">
-                        <h3 class="subtitle -second">HTML</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
+        <h2 class="main-title -second" lang="en">Skills</h2>
+        
+        <dl class="skill-tec">
+            <dd class="icon">
+                <img src="./assets/images/ico_html5.svg" alt="">
+            </dd>
+            <dt class="title">HTML</dt>
+            <dd>
+                <progress class="progress-bar" max="100" value="70">
+                    70%
+                </progress>
+            </dd>
+        </dl>
 
-                <div class="skill">
-                    <img src="./assets/images/ico_css3.svg" alt="Logo do CSS">
-                    <div class="type">
-                        <h3 class="subtitle -second">CSS</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="./assets/images/ico_js.svg" alt="Logo do JavaScript">
-                    <div class="type">
-                        <h3 class="subtitle -second">JavaScript</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="./assets/images/ico_react.svg" alt="Logo do React">
-                    <div class="type">
-                        <h3 class="subtitle -second">React</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="wrapper2">
-                <div class="skill">
-                    <img src="./assets/images/ico_nodejs.svg" alt="Logo do NodeJS">
-                    <div class="type">
-                        <h3 class="subtitle -second">NodeJS</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="./assets/images/ico_tdd.svg" alt="Logo do TDD">
-                    <div class="type">
-                        <h3 class="subtitle -second">TDD</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="./assets/images/ico_restapi.svg" alt="Logo do RestAPI">
-                    <div class="type">
-                        <h3 class="subtitle -second">Rest API</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="./assets/images/ico_ux.svg" alt="Logo do UX">
-                    <div class="type">
-                        <h3 class="subtitle -second">UX</h3>
-                        <progress class="progress" max="100" value="65"> 65% </progress>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
 </body>
