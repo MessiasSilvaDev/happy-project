@@ -4,14 +4,21 @@
     color: var(--white);
 
     display: flex;
+    align-items: center;
 }
 
 .skill-tec .icon {
     margin-right: 2.5rem;
+    width: 9rem;
+    height: 9rem;
 }
 
 .skill-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill-tec .title {
+    margin-bottom: 1rem;
 }
