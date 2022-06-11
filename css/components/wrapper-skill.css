@@ -17,3 +17,24 @@
 .wrapper-skill .progress-bar {
     width: 32rem;
 }
+
+.wrapper-skill.-project {
+    max-width: 115rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapper-skill.-project .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+    height: 28rem;
+    background-color: var(--one);
+    box-shadow: 1rem 1rem 0rem var(--white-dark);
+    transition: 0.2s all linear;
+}
+
+.wrapper-skill.-project .background:hover {
+    transform: scale(1.1);
+}
