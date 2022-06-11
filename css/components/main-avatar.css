@@ -1,0 +1,21 @@
+.main-avatar {
+    width: 6.2rem;
+    border-radius: 50%;
+    border: 0.3rem solid var(--two);
+    transition: 0.2s all linear;
+}
+
+.main-avatar:hover {
+    transform: scale(1.1);
+}
+
+.main-avatar.-second {
+    transition: none;
+    width: 28rem;
+    border-radius: 0;
+    border: 0.5rem solid var(--two);
+}
+
+.main-avatar.-second:hover {
+    transform: none;
+}
