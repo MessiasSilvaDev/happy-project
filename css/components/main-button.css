@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     
     background-color: var(--two);
@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-.button:hover {
+.main-button:hover {
     background-color: var(--two-dark);
     transform: scale(0.9);
 }
