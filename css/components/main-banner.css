@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     height: 81rem;
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../../assets/images/photo.png);
     background-repeat: no-repeat;
@@ -8,21 +8,21 @@
     padding-left: 9rem;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 63rem;
 }
 
-.banner .box {
+.main-banner .box {
     margin-bottom: 4rem;
 }
 
-.banner .main-button {
+.main-banner .main-button {
     background-color: var(--two-transparent);
 }
 
-.banner .navigation {
+.main-banner .navigation {
     display: flex;
     justify-content: space-around;
 }
