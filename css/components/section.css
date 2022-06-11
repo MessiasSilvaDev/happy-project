@@ -8,3 +8,9 @@
 .section .main-title {
     margin-bottom: 6rem;
 }
+
+.section.-black {
+    background-color: var(--black);
+    border-bottom: 1rem solid var(--two);
+
+} 
