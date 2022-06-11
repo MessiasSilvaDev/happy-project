@@ -1,4 +1,4 @@
-.box {
+.main-box {
     display: inline-block;
     text-align: center;
     background-color: var(--white-dark-transparent);
@@ -6,6 +6,6 @@
     box-shadow: 1rem 1rem 0 var(--black-transparent);
 }
 
-.box .main-title {
+.main-box .main-title {
     margin-bottom: 2.8rem;
 }
