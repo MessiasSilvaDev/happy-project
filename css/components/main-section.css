@@ -1,15 +1,15 @@
-.section {
+.main-section {
     background-color: var(--two);
     padding-top: 5rem;
     padding-bottom: 10rem;
     border-bottom: 1rem solid var(--one);
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 6rem;
 }
 
-.section.-black {
+.main-section.-black {
     background-color: var(--black);
     border-bottom: 1rem solid var(--two);
 
