@@ -8,14 +8,3 @@
 .main-avatar:hover {
     transform: scale(1.1);
 }
-
-.main-avatar.-second {
-    transition: none;
-    width: 28rem;
-    border-radius: 0;
-    border: 0.5rem solid var(--two);
-}
-
-.main-avatar.-second:hover {
-    transform: none;
-}
