@@ -1,0 +1,19 @@
+.card-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28rem;
+  height: 28rem;
+  background-color: var(--one);
+  box-shadow: 1rem 1rem 0rem var(--white-dark);
+  transition: 0.2s all linear;
+}
+
+.card-project .logo {
+    width: 22rem;
+    height: 22rem;
+}
+
+.card-project:hover {
+    transform: scale(1.1);
+}
