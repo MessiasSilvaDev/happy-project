@@ -1,25 +1,25 @@
 .wrapper-skill {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 96rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 96rem;
 }
 
 .wrapper-skill .skill-tec {
-    width: 43rem;
-    margin-bottom: 4rem;
+  width: 43rem;
+  margin-bottom: 4rem;
 }
 
 .wrapper-skill .skill-tec:nth-child(odd) {
-    margin-right: 10rem;
+  margin-right: 10rem;
 }
 
 .wrapper-skill .progress-bar {
-    width: 32rem;
+  width: 32rem;
 }
 
 .wrapper-skill.-project {
-    max-width: 115rem;
-    align-items: center;
-    justify-content: space-around;
+  max-width: 115rem;
+  align-items: center;
+  justify-content: space-around;
 }

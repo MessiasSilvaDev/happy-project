@@ -1,11 +1,11 @@
 .main-box {
-    display: inline-block;
-    text-align: center;
-    background-color: var(--white-dark-transparent);
-    padding: 4.2rem 4.4rem;
-    box-shadow: 1rem 1rem 0 var(--black-transparent);
+  display: inline-block;
+  text-align: center;
+  background-color: var(--white-dark-transparent);
+  padding: 4.2rem 4.4rem;
+  box-shadow: 1rem 1rem 0 var(--black-transparent);
 }
 
 .main-box .main-title {
-    margin-bottom: 2.8rem;
+  margin-bottom: 2.8rem;
 }

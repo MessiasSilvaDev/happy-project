@@ -1,7 +1,7 @@
 .main-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--one);
-    border-bottom: 1rem solid var(--black);
-    padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--one);
+  border-bottom: 1rem solid var(--black);
+  padding: 1rem 2rem;
 }

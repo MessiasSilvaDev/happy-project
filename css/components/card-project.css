@@ -10,10 +10,14 @@
 }
 
 .card-project .logo {
-    width: 22rem;
-    height: 22rem;
+  width: 22rem;
+  height: 22rem;
+}
+
+.card-project.-water {
+  background-color: var(--water);
 }
 
 .card-project:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }

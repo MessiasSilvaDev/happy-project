@@ -1,22 +1,22 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
-	text-decoration: none;
-	outline: none;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
 }
 
 html {
-    font-size: 62.5%;
-    transition: 0.2s all linear;
+  font-size: 62.5%;
+  transition: 0.2s all linear;
 }
 
 body {
-	font-family: "Fira Code", sans-serif;
+  font-family: 'Fira Code', sans-serif;
 }
 
 button {
-	font-family: inherit;
+  font-family: inherit;
 }

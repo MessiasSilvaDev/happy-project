@@ -1,17 +1,17 @@
 :root {
-    --one: hsl(351, 40%, 20%);
-    --two: hsl(346, 27%, 15%);
-    --two-transparent: hsla(346, 27%, 15%, 50%);
-    --two-dark: hsl(349, 24%, 13%);
-    --black: hsl(240, 3%, 11%);
-    --black-transparent: hsla(240, 3%, 11%, 35%);
-    --white: hsl(0, 0%, 100%);
-    --white-dark: hsl(9, 7%, 62%);
-    --white-dark-transparent: hsla(9, 7%, 62%, 35%);
-    --water: hsl(245, 13%, 35%);
-    --bege: hsl(350, 12%, 47%);
-    --blue: hsl(209, 19%, 57%);
-    --red: hsl(349, 43%, 56%);
-    --violet: hsl(325, 14%, 42%);
-    --deep: hsl(281, 12%, 31%);
+  --one: hsl(351, 40%, 20%);
+  --two: hsl(346, 27%, 15%);
+  --two-transparent: hsla(346, 27%, 15%, 50%);
+  --two-dark: hsl(349, 24%, 13%);
+  --black: hsl(240, 3%, 11%);
+  --black-transparent: hsla(240, 3%, 11%, 35%);
+  --white: hsl(0, 0%, 100%);
+  --white-dark: hsl(9, 7%, 62%);
+  --white-dark-transparent: hsla(9, 7%, 62%, 35%);
+  --water: hsl(245, 13%, 35%);
+  --bege: hsl(350, 12%, 47%);
+  --blue: hsl(209, 19%, 57%);
+  --red: hsl(349, 43%, 56%);
+  --violet: hsl(325, 14%, 42%);
+  --deep: hsl(281, 12%, 31%);
 }

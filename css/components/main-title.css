@@ -1,13 +1,13 @@
 .main-title {
-    color: var(--one);
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 4rem;
-    line-height: 4rem;
-    text-shadow: 0.4rem 0.4rem 0 var(--black);
+  color: var(--one);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 4rem;
+  line-height: 4rem;
+  text-shadow: 0.4rem 0.4rem 0 var(--black);
 }
 
 .main-title.-second {
-    color: var(--white);
-    text-align: center;
-    text-shadow: none;
+  color: var(--white);
+  text-align: center;
+  text-shadow: none;
 }
