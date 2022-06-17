@@ -11,5 +11,5 @@
 
 .main-section.-bgBlack {
   background-color: var(--black);
-  border-bottom: 1rem solid var(--two);
+  border-bottom: 1rem solid var(--brown);
 }
