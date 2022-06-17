@@ -9,7 +9,7 @@
   margin-bottom: 6rem;
 }
 
-.main-section.-black {
+.main-section.-bgBlack {
   background-color: var(--black);
   border-bottom: 1rem solid var(--two);
 }
