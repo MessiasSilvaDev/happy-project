@@ -14,8 +14,12 @@
   height: 22rem;
 }
 
-.card-project.-water {
+.card-project.-bgWater {
   background-color: var(--water);
+}
+
+.card-project.-bgDeep {
+  background-color: var(--deep);
 }
 
 .card-project:hover {
