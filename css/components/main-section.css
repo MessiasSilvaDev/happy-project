@@ -24,3 +24,7 @@
 .main-section.-bdBlack {
   border-bottom: 1rem solid var(--black);
 }
+
+.main-section .main-paragraph {
+  margin: 0rem 8rem;
+}
