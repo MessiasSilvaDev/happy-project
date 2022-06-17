@@ -16,3 +16,11 @@
 .main-section.-bdBrown {
   border-bottom: 1rem solid var(--brown);
 }
+
+.main-section.-bgOne {
+  background-color: var(--one);
+}
+
+.main-section.-bdBlack {
+  border-bottom: 1rem solid var(--black);
+}
